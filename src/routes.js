@@ -59,15 +59,15 @@ const routes = [
   },
   {
     type: "collapse",
-    name: "Tables",
+    name: "Trains",
     key: "tables",
-    icon: <Icon fontSize="small">table_view</Icon>,
+    icon: <Icon fontSize="small">train</Icon>,
     route: "/tables",
     component: <Tables />,
   },
   {
     type: "collapse",
-    name: "Billing",
+    name: "Bookings",
     key: "billing",
     icon: <Icon fontSize="small">receipt_long</Icon>,
     route: "/billing",

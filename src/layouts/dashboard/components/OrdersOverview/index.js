@@ -29,7 +29,7 @@ function OrdersOverview() {
     <Card sx={{ height: "100%" }}>
       <MDBox pt={3} px={3}>
         <MDTypography variant="h6" fontWeight="medium">
-          Orders overview
+          Bookings overview
         </MDTypography>
         <MDBox mt={0} mb={2}>
           <MDTypography variant="button" color="text" fontWeight="regular">
@@ -48,13 +48,13 @@ function OrdersOverview() {
         <TimelineItem
           color="success"
           icon="notifications"
-          title="$2400, Design changes"
+          title="LKR 12000, cancellation earnings"
           dateTime="22 DEC 7:20 PM"
         />
         <TimelineItem
           color="error"
           icon="inventory_2"
-          title="New order #1832412"
+          title="Train Delay"
           dateTime="21 DEC 11 PM"
         />
         <TimelineItem

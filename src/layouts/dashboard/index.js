@@ -92,7 +92,7 @@ function Dashboard() {
               <ComplexStatisticsCard
                 color="primary"
                 icon="person_add"
-                title="Followers"
+                title="Subscribers"
                 count="+91"
                 percentage={{
                   color: "success",
@@ -135,7 +135,7 @@ function Dashboard() {
               <MDBox mb={3}>
                 <ReportsLineChart
                   color="dark"
-                  title="completed tasks"
+                  title="Reserved Seats"
                   description="Last Campaign Performance"
                   date="just updated"
                   chart={tasks}

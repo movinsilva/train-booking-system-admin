@@ -71,15 +71,15 @@ export default function data() {
 
   return {
     columns: [
-      { Header: "companies", accessor: "companies", width: "45%", align: "left" },
-      { Header: "members", accessor: "members", width: "10%", align: "left" },
-      { Header: "budget", accessor: "budget", align: "center" },
-      { Header: "completion", accessor: "completion", align: "center" },
+      { Header: "Train Name", accessor: "companies", width: "45%", align: "left" },
+      { Header: "reservations", accessor: "members", width: "10%", align: "left" },
+      { Header: "earnings", accessor: "budget", align: "center" },
+      { Header: "seats", accessor: "completion", align: "center" },
     ],
 
     rows: [
       {
-        companies: <Company image={logoXD} name="Material UI XD Version" />,
+        companies: <Company image={logoXD} name="Galu Kumari" />,
         members: (
           <MDBox display="flex" py={1}>
             {avatars([
@@ -92,7 +92,7 @@ export default function data() {
         ),
         budget: (
           <MDTypography variant="caption" color="text" fontWeight="medium">
-            $14,000
+            LKR 14,000
           </MDTypography>
         ),
         completion: (
